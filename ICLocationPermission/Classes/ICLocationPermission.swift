@@ -1,4 +1,4 @@
-//
+// 1.0
 //  ILocationPermission.swift
 //  imReporter
 //
@@ -94,7 +94,7 @@ final public class ICLocationPermission: NSObject {
                 if #available(iOS 10.0, *) {
                     UIApplication.shared.open(urlObj, options: [:], completionHandler: nil)
                 } else {
-                    // Fallback on earlier versions 1.0
+                    // Fallback on earlier versions.
 
                 }
             }
