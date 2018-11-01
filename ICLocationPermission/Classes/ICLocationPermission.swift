@@ -95,6 +95,7 @@ final public class ICLocationPermission: NSObject {
                     UIApplication.shared.open(urlObj, options: [:], completionHandler: nil)
                 } else {
                     // Fallback on earlier versions
+                    // Changes for next version.
                 }
             }
         }
