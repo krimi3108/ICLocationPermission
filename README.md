@@ -36,7 +36,8 @@ Now close the xcode project and open prj.xcworkspace instead.
 
 3. After insalling the cocoapod into your project import *ICLocationPermission*
 ```
-   import ICLocationPermission
+import ICLocationPermission
+import CoreLocation
 ```
 
 4.  We are trying to access location of device, thus we have to add 2 keys(*NSLocationAlwaysAndWhenInUseUsageDescription*, *NSLocationAlwaysAndWhenInUseUsageDescription*) for privacy in *info.plist* file with there appropriate description.
