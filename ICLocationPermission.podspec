@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICLocationPermission'
-  s.version          = '2.0'
+  s.version          = '1.0'
   s.summary          = 'ICLocationPermission for get current location'
 
 # This description is used to generate tags and improve search results.
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/kritikamiddha/ICLocationPermission'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kritikamiddha' => 'kritika.middha@ranosys.com' }
-  s.source           = { :git => 'https://github.com/kritikamiddha/ICLocationPermission.git', :tag => s.version.to_s }
+  s.author           = { 'krimi3108' => 'krimi3108@gmail.com' }
+  s.source           = { :git => 'https://github.com/krimi3108/ICLocationPermission.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
